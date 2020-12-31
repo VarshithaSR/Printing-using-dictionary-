@@ -1,0 +1,3 @@
+most_frequent= "Mississippi"
+word={i: most_frequent.count(i) for i in set(most_frequent)}
+print("the count of all characters in Mississippi is:" + str(word))
